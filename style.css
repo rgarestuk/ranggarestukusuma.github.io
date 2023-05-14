@@ -1,0 +1,228 @@
+
+
+/* NAVBAR */
+nav {
+  background-color: #FFF3DE
+}
+
+.navbar-brand {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active {
+  
+  color: #ffc442;
+}
+
+.btn-cv:hover {
+  background-color: #FFC442;
+}
+/* AKHIR NAVBAR */
+
+/* HOME */
+#home {
+  background-color: #FFF3DE;
+  padding-top: 6rem;
+}
+
+.btn-contact {
+  background-color: #FFC442;
+}
+
+.btn-link,
+.btn-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-contact:hover {
+  background-color: #FFC442;
+}
+
+.btn-cv {
+  background-color: #FFC442;
+}
+
+.job {
+  font-size: 13px;
+}
+
+.h-nama {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+}
+
+.perkenalan {
+  font-size: small;
+}
+
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bg-profile {
+  width: 95%;
+  height: 600px;
+  bottom: 25px;
+}
+
+.parent-svg {
+  height: 450px;
+}
+/* AKHIR HOME */
+/* SKILL */
+.h-skill {
+  color: #FFC442;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+/* AKHIR SKILL */
+
+/* PROJECT */
+#project {
+  background-color: #FFC442;
+}
+
+.container-project {
+  width: 90%;
+}
+
+.h-project {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+.text-project {
+  font-size: small;
+}
+/* AKHIR PROJECT */
+
+/* CERTIFICATE */
+#certificate {
+  background-color: #FFF3DE;
+}
+
+.h-serti {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+.container .card2
+{
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container .card2:hover
+{
+    height: 450px;
+}
+
+.container .card2 .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card2 .imgContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card2 .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card2:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 330px){
+    .container .card2 .imgContainer{
+        left: -2px;
+    }
+}
+/* AKHIR CERTIFICATE */
+
+/* EDUCATION */
+#education {
+  background-color: #FFC442;
+}
+
+.h-education {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+.tingkat {
+  font-size: 2rem;
+}
+
+.nama-sekolah {
+  font-size: larger;
+}
+
+.tahun {
+  font-size: smaller;
+}
+/* AKHIR EDUCATION */
+/* GET IN TOUCH */
+#get {
+  background-color: #FFF3DE;
+}
+
+.getInTouch {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-get {
+  font-size: small;
+}
+/* AKHIR GET IN TOUCH */
+/* FOOTER */
+#footer {
+  background-color: #111;
+}
+
+.sosmed {
+  text-decoration: none;
+}
+/* AKHIR FOOTER */

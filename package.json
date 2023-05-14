@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap-icons": "^1.10.5",
+    "hover.css": "^2.3.2",
+    "tilt.js": "^1.2.1",
+    "typeit": "^8.7.1",
+    "typewriter-effect": "^2.19.0"
+  }
+}
